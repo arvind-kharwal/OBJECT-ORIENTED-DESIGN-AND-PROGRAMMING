@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-class Sample
+class Example
 {
 	int a;
 	float b;
@@ -17,7 +17,7 @@ class Sample
 
 int main()
 {
-	Sample S;
-	S.getdata();
-	S.display();
+	Example E;
+	E.getdata();
+	E.display();
 }
