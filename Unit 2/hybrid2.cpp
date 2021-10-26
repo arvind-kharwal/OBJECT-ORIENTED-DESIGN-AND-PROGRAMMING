@@ -6,14 +6,14 @@ class A
         int a;
         
 };
-class B:public A
+class B:virtual public A
 {
     public:
         int b;
        
 
 };
-class C:public A
+class C:virtual public A
 {
     public:
         int c;
@@ -28,6 +28,8 @@ class D:public B,public C
 int main()
 {
     D D1;
+    //D1.a=10;
+    //cout<<D1.a;
     cout<<sizeof(D1);
     
 }

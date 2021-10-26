@@ -9,7 +9,7 @@ class A
         }
 
 };
-class B:public A
+class B: virtual public A
 {
     public:
         void display2()
@@ -18,7 +18,7 @@ class B:public A
         }
 
 };
-class C:public A
+class C:public virtual A
 {
     public:
         void display3()
@@ -42,5 +42,5 @@ int main()
     D1.display4();
     D1.display3();
     D1.display2();
-    //D1.display1();
+    D1.display1();
 }
