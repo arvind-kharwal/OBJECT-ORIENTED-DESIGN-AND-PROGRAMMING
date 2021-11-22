@@ -3,7 +3,7 @@ using namespace std;
 class A
 {
     public:
-       virtual void display()
+      void display()
         {
             cout<<"Display function from class A"<<endl;
         }
@@ -20,6 +20,8 @@ class B:public A
 int main()
 {
   
+    // B B1;
+    // B1.display();
     A *P,A1;
     P = &A1;
     P->display();
