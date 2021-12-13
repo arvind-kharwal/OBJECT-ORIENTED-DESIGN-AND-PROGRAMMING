@@ -6,6 +6,6 @@ int main()
     vector<int> v1={1,2,3,4,5};
     for(int i:v1)
     {
-        cout<<v1[i]<<" ";
+        cout<<i<<" ";
     }
 }
