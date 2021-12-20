@@ -11,5 +11,10 @@ int main()
     {
         cout<<*i<<" ";
     }
-    A.sort();
-}
+    sort(A.begin(),A.end());
+    cout<<"\nThe sorted array elements\n";
+    for(i=A.begin();i<A.end();i++)
+    {
+        cout<<*i<<" ";
+    }
+} 

@@ -7,6 +7,9 @@
         "string": "cpp",
         "unordered_map": "cpp",
         "vector": "cpp",
-        "array": "cpp"
+        "array": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "list": "cpp"
     }
 }
